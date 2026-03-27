@@ -24,9 +24,17 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+/*let a = "Alice"; //vague variable name, not using camelCase
+let b = 5; //vague variable name, not using camelCase
+let c = 20; //vague variable name, not using camelCase
+let d = a + " bought " + b + " items for $" + c + "."; //vague variable name, not using camelCase 
 
 console.log(d);
+*/   
+let userName = "Alice"; //previously had vague variable name, not using camelCase
+let numberOfItems = 5; //previously had vague variable name, not using camelCase
+let totalCost = 20; //previously had vague variable name, not using camelCase
+let itemsBought = userName + " bought " + numberOfItems + " items for $" + totalCost + "."; //previously had vague variable name, not using camelCase
+let programDescription = "This program calculates the total cost of items bought by a user."; //added additional variable to improve program's functionality
+console.log(itemsBought);
+console.log(programDescription);
